@@ -1,0 +1,11 @@
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\bin\Debug\net5.0\AuthServer.Core.deps.json
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\bin\Debug\net5.0\AuthServer.Core.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\bin\Debug\net5.0\ref\AuthServer.Core.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\bin\Debug\net5.0\AuthServer.Core.pdb
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\obj\Debug\net5.0\AuthServer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\obj\Debug\net5.0\AuthServer.Core.AssemblyInfoInputs.cache
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\obj\Debug\net5.0\AuthServer.Core.AssemblyInfo.cs
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\obj\Debug\net5.0\AuthServer.Core.csproj.CoreCompileInputs.cache
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\obj\Debug\net5.0\AuthServer.Core.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\obj\Debug\net5.0\ref\AuthServer.Core.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Core\obj\Debug\net5.0\AuthServer.Core.pdb
