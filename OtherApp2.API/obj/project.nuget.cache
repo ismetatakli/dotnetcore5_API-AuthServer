@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CWauoQSVkqDIBHNn+msfOrSUfb1AtdX9jswq5fLhAXePqHzGmZzSXdU61jy+f2rPB2zu2SliJ9dC/e5CH4dxOA==",
+  "dgSpecHash": "Fyex3hoW0hPMxpWeuf+EmukMogUiNSQAKJlOJJ6reTlLrqRCX9qEx9OUmrdrGk/rpSYP1dR+f2Li2Smd+YiilQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\OtherApp2.API\\OtherApp2.API.csproj",
+  "projectFilePath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\OtherApp2.API\\OtherApp2.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ismetatakli\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ismetatakli\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
