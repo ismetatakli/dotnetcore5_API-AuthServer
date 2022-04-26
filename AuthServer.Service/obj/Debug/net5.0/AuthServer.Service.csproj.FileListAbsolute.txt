@@ -32,3 +32,5 @@ C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthS
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Service\obj\Debug\net5.0\AuthServer.Service.dll
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Service\obj\Debug\net5.0\ref\AuthServer.Service.dll
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Service\obj\Debug\net5.0\AuthServer.Service.pdb
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Service\bin\Debug\net5.0\Shared.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Service\bin\Debug\net5.0\Shared.pdb
