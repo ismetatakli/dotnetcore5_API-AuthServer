@@ -7,7 +7,9 @@ using Microsoft.Extensions.Options;
 using Shared.Configuration;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,6 +35,19 @@ namespace AuthServer.Service.Services
             return Convert.ToBase64String(numberByte);
         }
 
+        private IEnumerable<Claim> GetClaim(AppUser appUser,List<String> audiences)
+        {
+            var userList = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier,appUser.Id),
+                new Claim(JwtRegisteredClaimNames.Email,appUser.Email),
+                new Claim(ClaimTypes.Name,appUser.UserName),
+                new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
+            };
+
+            userList.AddRange(audiences.Select(x => new Claim(JwtRegisteredClaimNames.Aud, x)));
+            return userList;
+        }
 
         public TokenDto CreateToken(AppUser appuser)
         {
