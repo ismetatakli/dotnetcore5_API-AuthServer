@@ -21,3 +21,4 @@ C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\Share
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\Shared\obj\Debug\net5.0\Shared.dll
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\Shared\obj\Debug\net5.0\ref\Shared.dll
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\Shared\obj\Debug\net5.0\Shared.pdb
+C:\Users\ismetatakli\Source\Repos\AuthServer\Shared\obj\Debug\net5.0\Shared.csproj.AssemblyReference.cache

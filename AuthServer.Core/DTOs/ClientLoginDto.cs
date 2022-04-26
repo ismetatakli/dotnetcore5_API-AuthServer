@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AuthServer.Core.Configuration
+namespace AuthServer.Core.DTOs
 {
-    public class Client
+    public class ClientLoginDto
     {
         public string ClientId { get; set; }
-        public string Secret { get; set; }
-        public List<String> Audiences { get; set; }
+        public string ClientSecret { get; set; }
     }
 }

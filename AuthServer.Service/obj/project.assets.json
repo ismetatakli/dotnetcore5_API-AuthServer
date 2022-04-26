@@ -801,11 +801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Service\\AuthServer.Service.csproj",
+      "projectUniqueName": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj",
       "projectName": "AuthServer.Service",
-      "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Service\\AuthServer.Service.csproj",
+      "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj",
       "packagesPath": "C:\\Users\\ismetatakli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Service\\obj\\",
+      "outputPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ismetatakli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -822,8 +822,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\AuthServer.Data.csproj": {
-              "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\AuthServer.Data.csproj"
+            "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\AuthServer.Data.csproj": {
+              "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\AuthServer.Data.csproj"
             }
           }
         }
@@ -852,7 +852,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

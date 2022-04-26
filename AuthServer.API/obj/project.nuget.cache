@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Leg3uWZfjITM7fZGXtMRaVN9s7WT+4C3gZr9YKCWFzvJ91w2DTx++L9M6QhIelgBWqFw69rpcanuvqv5j0gEBA==",
+  "dgSpecHash": "OPCp7/ZnL10ZR1GGktwk12rQRwg/pzhEwRZVFAwJk7cgoDOY5bkfupYgzfzJCblF9yw0SKVVtUEOS7d+yFQoow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.API\\AuthServer.API.csproj",
+  "projectFilePath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.API\\AuthServer.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ismetatakli\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
     "C:\\Users\\ismetatakli\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.9\\microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512",
