@@ -4,6 +4,7 @@ using AuthServer.Core.Models;
 using AuthServer.Core.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using Shared.Configuration;
 using System;
 using System.Collections.Generic;
@@ -49,14 +50,69 @@ namespace AuthServer.Service.Services
             return userList;
         }
 
+        private IEnumerable<Claim> GetClaimsByClient(Client client)
+        {
+            var claims = new List<Claim>();
+            claims.AddRange(client.Audiences.Select(x => new Claim(JwtRegisteredClaimNames.Aud, x)));
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString());
+            new Claim(JwtRegisteredClaimNames.Sub, client.ClientId.ToString());
+
+            return claims;
+        }
+
         public TokenDto CreateToken(AppUser appuser)
         {
-            return null;
+            var accesstokenExpiration = DateTime.Now.AddMinutes(_tokenOptions.AccessTokenExpiration);
+            var refreshTokenExpiration = DateTime.Now.AddMinutes(_tokenOptions.RefreshTokenExpiration);
+            var securityKey = SignService.GetSymmetricSecurityKey(_tokenOptions.SecurityKey);
+
+            SigningCredentials signingCredentials = new SigningCredentials(securityKey,SecurityAlgorithms.HmacSha256Signature);
+
+            JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(
+                issuer: _tokenOptions.Issuer,
+                expires: accesstokenExpiration,
+                notBefore: DateTime.Now,
+                claims: GetClaim(appuser, _tokenOptions.Audience),
+                signingCredentials:signingCredentials);
+
+            var handler = new JwtSecurityTokenHandler();
+
+            var token = handler.WriteToken(jwtSecurityToken);
+            var tokenDto = new TokenDto
+            {
+                AccessToken = token,
+                ResfreshToken = CreateRefreshToken(),
+                AccessTokenExpiration = accesstokenExpiration,
+                RefreshTokenExpiration = refreshTokenExpiration
+            };
+
+            return tokenDto;
         }
 
         public ClientTokenDto CreateTokenByClient(Client client)
         {
-            throw new NotImplementedException();
+            var accesstokenExpiration = DateTime.Now.AddMinutes(_tokenOptions.AccessTokenExpiration);
+            var securityKey = SignService.GetSymmetricSecurityKey(_tokenOptions.SecurityKey);
+
+            SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
+
+            JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(
+                issuer: _tokenOptions.Issuer,
+                expires: accesstokenExpiration,
+                notBefore: DateTime.Now,
+                claims: GetClaimsByClient(client),
+                signingCredentials: signingCredentials);
+
+            var handler = new JwtSecurityTokenHandler();
+
+            var token = handler.WriteToken(jwtSecurityToken);
+            var tokenDto = new ClientTokenDto
+            {
+                AccessToken = token,
+                AccessTokenExpiration = accesstokenExpiration,
+            };
+
+            return tokenDto;
         }
     }
 }
