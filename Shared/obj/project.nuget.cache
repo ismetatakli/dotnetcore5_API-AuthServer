@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ahR7cnEmJnS1VOIv2dgqUU7kLbtkODzDlSyTLcx5z3INhv3uWPC0RLWyP1X44PBQSAC8U0n8mvQ4NrgtPFNyaA==",
+  "dgSpecHash": "pJ7a3eRdfURVsjPb0T5tfaJ6It9MXKPIyvYo9pVuEY2sCOIsUNWiVbazczaZR0t4yDBpIK1vtUzm3ThHZA8JCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

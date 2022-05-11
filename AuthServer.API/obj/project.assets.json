@@ -5793,11 +5793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.API\\AuthServer.API.csproj",
+      "projectUniqueName": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.API\\AuthServer.API.csproj",
       "projectName": "AuthServer.API",
-      "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.API\\AuthServer.API.csproj",
+      "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.API\\AuthServer.API.csproj",
       "packagesPath": "C:\\Users\\ismetatakli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.API\\obj\\",
+      "outputPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ismetatakli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5814,11 +5814,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj": {
-              "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj"
+            "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Service\\AuthServer.Service.csproj": {
+              "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Service\\AuthServer.Service.csproj"
             },
-            "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj"
+            "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj"
             }
           }
         }
@@ -5866,7 +5866,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

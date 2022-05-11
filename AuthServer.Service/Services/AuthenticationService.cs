@@ -36,7 +36,7 @@ namespace AuthServer.Service.Services
         public async Task<Response<TokenDto>> CreateTokenAsync(LoginDto loginDto)
         {
             if (loginDto == null) throw new ArgumentNullException(nameof(loginDto));
-            var user = await _userManager.FindByNameAsync(loginDto.Email);
+            var user = await _userManager.FindByNameAsync(loginDto.UserName);
             if (user == null) return Response<TokenDto>.Fail("Email or Password is wrong",400,true);
             if((await _userManager.CheckPasswordAsync(user, loginDto.Password)) == false)
             {

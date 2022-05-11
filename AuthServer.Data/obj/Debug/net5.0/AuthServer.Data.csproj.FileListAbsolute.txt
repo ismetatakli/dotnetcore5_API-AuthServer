@@ -33,3 +33,8 @@ C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Data\bin\Debug\net5.0\Au
 C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Data\bin\Debug\net5.0\Shared.dll
 C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Data\bin\Debug\net5.0\Shared.pdb
 C:\Users\ismetatakli\Source\Repos\AuthServer\AuthServer.Data\obj\Debug\net5.0\AuthServer.Data.genruntimeconfig.cache
+C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Data\bin\Debug\net5.0\AuthServer.Data.runtimeconfig.json
+C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Data\bin\Debug\net5.0\AuthServer.Data.runtimeconfig.dev.json
+C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Data\bin\Debug\net5.0\Shared.dll
+C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Data\bin\Debug\net5.0\Shared.pdb
+C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\AuthServer.Data\obj\Debug\net5.0\AuthServer.Data.genruntimeconfig.cache

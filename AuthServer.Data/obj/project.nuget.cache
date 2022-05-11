@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/OF5JNc8k+X0TILyaNFigejgc43YgKYCj7I3kjDHc/PSJutAh8ncWjoKIlPz2GqaIWUGjDKr3xeJNbFRiUbqw==",
+  "dgSpecHash": "2P5tJFajc/DvnfZMOAM3nQPo4llX7s911ysfdu4omTS6pXIYjo5CsKFWvEOWPreo48tiPopbeHpDGfdM1QeB9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\AuthServer.Data.csproj",
+  "projectFilePath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\AuthServer.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ismetatakli\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ismetatakli\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
