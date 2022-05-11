@@ -22,25 +22,22 @@ namespace AuthServer.API.Controllers
         {
             _serviceGeneric = serviceGeneric;
         }
-
         [HttpGet]
         public async Task<IActionResult> GetProducts()
         {
             return ActionResultInstance(await _serviceGeneric.GetAllAsync());
         }
-
         [HttpPost]
         public async Task<IActionResult> SaveProduct(ProductDto product)
         {
             return ActionResultInstance(await _serviceGeneric.AddAsync(product));
         }
-
         [HttpPut]
         public async Task<IActionResult> UpdateProduct(ProductDto product)
         {
             return ActionResultInstance(await _serviceGeneric.Update(product, product.Id));
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             return ActionResultInstance(await _serviceGeneric.Remove(id));
