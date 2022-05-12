@@ -14,12 +14,13 @@ namespace OtherApp2.API.Controllers
     [ApiController]
     public class InvoiceController : ControllerBase
     {
+        [HttpGet]
         public IActionResult Get()
         {
             var userName = HttpContext.User.Identity.Name;
             var userId = User.Claims.FirstOrDefault(x=>x.Type == ClaimTypes.NameIdentifier);
 
-            return Ok($"Invoice --- username:{userName} - userid:{userId}");
+            return Ok($"Invoice --- username:{userName} - userid:{userId.Value}");
         }
     }
 }

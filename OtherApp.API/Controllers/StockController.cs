@@ -14,12 +14,13 @@ namespace OtherApp.API.Controllers
     [ApiController]
     public class StockController : ControllerBase
     {
+        [HttpGet]
         public IActionResult GetStock()
         {
             var userName = HttpContext.User.Identity.Name;
             var userId = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
 
-            return Ok($"Stock --- username:{userName} - userid:{userId}");
+            return Ok($"Stock --- username:{userName} - userid:{userId.Value}");
 
         }
     }
