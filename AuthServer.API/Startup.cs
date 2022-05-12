@@ -19,6 +19,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Shared.Configuration;
+using Shared.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;

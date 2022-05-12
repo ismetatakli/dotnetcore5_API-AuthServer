@@ -60,3 +60,10 @@ C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\Other
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\OtherApp2.API\obj\Debug\net5.0\ref\OtherApp2.API.dll
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\OtherApp2.API\obj\Debug\net5.0\OtherApp2.API.pdb
 C:\Users\ismetatakli\Desktop\AuthServerOnGithub\dotnetcore5_API-AuthServer\OtherApp2.API\obj\Debug\net5.0\OtherApp2.API.genruntimeconfig.cache
+C:\Users\ismetatakli\Source\Repos\AuthServer\OtherApp2.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\OtherApp2.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\OtherApp2.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\OtherApp2.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\OtherApp2.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\OtherApp2.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ismetatakli\Source\Repos\AuthServer\OtherApp2.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

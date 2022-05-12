@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\AuthServer.Data.csproj": {}
+    "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\AuthServer.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Core\\AuthServer.Core.csproj": {
+    "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Core\\AuthServer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Core\\AuthServer.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Core\\AuthServer.Core.csproj",
         "projectName": "AuthServer.Core",
-        "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Core\\AuthServer.Core.csproj",
+        "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Core\\AuthServer.Core.csproj",
         "packagesPath": "C:\\Users\\ismetatakli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Core\\obj\\",
+        "outputPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ismetatakli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj"
+              "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj"
               }
             }
           }
@@ -64,18 +64,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\AuthServer.Data.csproj": {
+    "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\AuthServer.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\AuthServer.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\AuthServer.Data.csproj",
         "projectName": "AuthServer.Data",
-        "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\AuthServer.Data.csproj",
+        "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\AuthServer.Data.csproj",
         "packagesPath": "C:\\Users\\ismetatakli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Data\\obj\\",
+        "outputPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ismetatakli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Core\\AuthServer.Core.csproj": {
-                "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\AuthServer.Core\\AuthServer.Core.csproj"
+              "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Core\\AuthServer.Core.csproj": {
+                "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\AuthServer.Core\\AuthServer.Core.csproj"
               }
             }
           }
@@ -144,18 +144,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj": {
+    "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ismetatakli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismetatakli\\Desktop\\AuthServerOnGithub\\dotnetcore5_API-AuthServer\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ismetatakli\\Source\\Repos\\AuthServer\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ismetatakli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,6 +183,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -201,7 +207,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
